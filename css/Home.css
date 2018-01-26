@@ -1,13 +1,38 @@
-h1 {
+* {
+	margin : 0;
+	padding : 0;
+}
+
+#subtop {
 	
+	color : white;
+	font-style: italic;
+	padding-left: 150px;
+
+}
+
+#Dropdown{
+	position: absolute;
+	z-index: 2;
+}
+
+h1 {
+
 	font-size: 55;
 	font-family: "Times New Roman", serif;
 	font-style: normal;
 	font-size: 55px;
 	font-weight: 600;
-	text-align: center;
+	color: white;
 }
 
 body {
-	background-color: #dcdcdc;
+	background-color: white;
+}
+
+div {
+	background-color : black;
+	text-align: center;
+	position: relative;
+	z-index: 1;
 }
