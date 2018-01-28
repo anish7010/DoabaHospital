@@ -15,7 +15,7 @@
 	color: white;
 	float: right;
 	font-family: "Times New Roman",serif;
-	margin-right: 7px;
+	margin-right: 10px;
 	text-decoration: none;
 }
 
@@ -38,42 +38,13 @@ h1 a{
 }
 
 body {
-	background-color: #222;
+	background-color: #dcdcdc;
 	margin: 0px;
 }
 
-#Above {
-	background-color : #222;
+div {
+	background-color : black;
 	text-align: center;
 	border: 1px solid white;
 	min-width: 800px;
-}
-
-div div blockquote{
-	width : 400px;
-	float:left;
-	padding-left: 80px;
-}
-
-div span{
-	width: 500px;
-	margin-right: auto;
-	float: center;
-	color: white;
-}
-
-#LeftFooter{
-	float:left;
-	padding-left : 350px;
-}
-
-
-
-#RightFooter{
-	float:right;
-	padding-right: 350px;
-}
-
-div div span ul{
-	list-style: none;
 }
