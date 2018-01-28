@@ -42,9 +42,35 @@ body {
 	margin: 0px;
 }
 
-div {
+#Above {
 	background-color : black;
 	text-align: center;
 	border: 1px solid white;
-	min-width: 800px;
+}
+
+#left{
+	float:left;
+	width: 700px;
+
+}
+
+#right {
+	float: right;
+	width: 600px;
+}
+
+#LeftFooter{
+	float:left;
+	padding-left : 350px;
+}
+
+
+
+#RightFooter{
+	float:right;
+	padding-right: 350px;
+}
+
+div div span ul{
+	list-style: none;
 }

@@ -24,7 +24,7 @@ span a:hover{
 	text-decoration: underline;
 }
 
-h1 {
+#Above h1 {
 	font-family: "Times New Roman", serif;
 	font-style: normal;
 	font-size: 55px;
@@ -43,10 +43,11 @@ body {
 }
 
 #Above {
-	background-color : #222;
+	width:100% ;
+	background-color : black;
 	text-align: center;
 	border: 1px solid white;
-	min-width: 800px;
+	position: fixed;
 }
 
 div div blockquote{
@@ -76,4 +77,26 @@ div span{
 
 div div span ul{
 	list-style: none;
+}
+
+#Content{
+	width: 800px;
+	margin : auto;
+}
+
+#Content h1{
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+#Content p{
+	color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
