@@ -1,17 +1,21 @@
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 #subtop {
-	
-	color : white;
-	font-style: italic;
-	padding-left: 230px;
+	color:white;
 }
 
 #logo {
-	margin-left: 100px;
+	margin-left: 150px;
+}
+
+.hyperlinks{
+	color: white;
+	float: right;
+	font-family: "Times New Roman",serif;
+	margin-right: 10px;
 }
 
 h1 {
@@ -19,16 +23,17 @@ h1 {
 	font-style: normal;
 	font-size: 55px;
 	color: white;
-	padding-right: 150px;
+	padding-right: 250px;
 }
 
 body {
 	background-color: #dcdcdc;
-	margin: 0;
+	margin: 0px;
 }
 
 div {
 	background-color : black;
 	text-align: center;
 	border: 1px solid white;
+	min-width: 800px;
 }
