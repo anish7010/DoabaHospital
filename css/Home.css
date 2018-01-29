@@ -66,6 +66,8 @@ div span{
 #LeftFooter{
 	float:left;
 	padding-left : 350px;
+	padding-bottom: 20px;
+	font-family: "Open Sans", sans-serif;
 }
 
 
@@ -73,10 +75,11 @@ div span{
 #RightFooter{
 	float:right;
 	padding-right: 350px;
+	font-family: "Open Sans", sans-serif;
 }
 
 div div span ul{
-	list-style: none;
+	list-style: square;
 }
 
 #Content{
@@ -85,7 +88,7 @@ div div span ul{
 }
 
 #Content h1{
-	font-family: "Times New Roman", serif;
+	font-family: "Open Sans", sans-serif;
 	font-style: normal;
 	font-size: 40px;
 	color: white;
@@ -94,9 +97,14 @@ div div span ul{
 
 #Content p{
 	color: white;
+	font-family: "Open Sans", sans-serif;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+li:nth-child(1) {
+  list-style: none;
+}
+
+#end {
+	width: 100%;
+	background: 
 }
